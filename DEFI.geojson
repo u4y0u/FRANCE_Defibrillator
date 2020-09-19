@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-09-16T21:22:02Z",
+  "timestamp": "2020-09-19T09:50:02Z",
   "features": [
     {
       "type": "Feature",
@@ -25610,7 +25610,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3599467016",
-        "emergency": "defibrillator"
+        "defibrillator:location": "Stade André Jancou",
+        "emergency": "defibrillator",
+        "operator": "Mairie d'Orléans"
       },
       "geometry": {
         "type": "Point",
@@ -58410,7 +58412,12 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4971025001",
-        "emergency": "defibrillator"
+        "access": "yes",
+        "defibrillator:location": "Maison de santé rurale\nExtérieur, sur le mur de droite de la porte entrée",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "level": "0",
+        "operator": "MAirie de Rouffignac"
       },
       "geometry": {
         "type": "Point",
@@ -58425,14 +58432,18 @@
       "type": "Feature",
       "properties": {
         "@id": "node/4971025002",
+        "access": "yes",
+        "defibrillator:location": "En rentant, à droite sur le mur",
         "emergency": "defibrillator",
-        "indoor": "yes"
+        "indoor": "yes",
+        "level": "0",
+        "operator": "Communauté de commune Vallée de l'Homme"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.9748279,
-          45.0515726
+          0.9748208,
+          45.0515341
         ]
       },
       "id": "node/4971025002"
@@ -100009,8 +100020,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.0960105,
-          48.0064493
+          -4.0959857,
+          48.0062172
         ]
       },
       "id": "node/7100292956"
@@ -102787,6 +102798,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7312431019",
+        "defibrillator:location": "Au coin du mur à l'extérieur",
         "emergency": "defibrillator",
         "indoor": "no"
       },
@@ -102803,6 +102815,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7312431020",
+        "defibrillator:location": "Au coin du mur à l'extérieur",
         "emergency": "defibrillator",
         "indoor": "no"
       },
@@ -111976,7 +111989,8 @@
         "emergency": "defibrillator",
         "indoor": "no",
         "note": "Au 06/09/2020 le DAE n'est plus sur le site (observation de terrain), ce qui coïnciderait avec le fait que la plage surveillée par un sauveteur ne l'est que sur la période de Juillet à Août. A vérifier en 2021 : Quand la commune remet le DAE.",
-        "opening_hours": "Jun-Aug 24/7; Jan-May off; Sep-Dec off"
+        "opening_hours": "Jun-Aug 24/7; Jan-May off; Sep-Dec off",
+        "operator": "Commune de Châteauneuf-sur-Charente"
       },
       "geometry": {
         "type": "Point",
@@ -122684,7 +122698,8 @@
         "defibrillator:location": "Sur la gauche après le sas de l'entrée principale.",
         "emergency": "defibrillator",
         "indoor": "yes",
-        "level": "0"
+        "level": "0",
+        "operator": "Commune de Châteauneuf-sur-Charente"
       },
       "geometry": {
         "type": "Point",
@@ -123223,7 +123238,8 @@
         "defibrillator:location": "Se trouve à l'une des deux entrées du marché couvert, accessible par la rue côté assurance Allianz ou pharmacie Dumur, ou encore par l'impasse du côté des deux parkings.",
         "emergency": "defibrillator",
         "indoor": "no",
-        "level": "0"
+        "level": "0",
+        "operator": "Commune de Châteauneuf-sur-Charente"
       },
       "geometry": {
         "type": "Point",
@@ -124173,7 +124189,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7886574728",
-        "defibrillator:location": "à l'extérieur des bornes d'accès",
+        "defibrillator:location": "A l'intérieur du bâtiment, à gauche juste après les portes d'entrée (seulement ouvertes durant les horaires de bureau). L'accès ne nécessite pas de pass d'entrée.",
         "defibrillator:location:en": "outside of the controlled-access area",
         "emergency": "defibrillator",
         "indoor": "yes",
@@ -124183,8 +124199,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3131808,
-          48.8165678
+          2.313185,
+          48.8165944
         ]
       },
       "id": "node/7886574728"
@@ -125590,7 +125606,7 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7893359085",
-        "access": "yes",
+        "access": "unknown",
         "defibrillator:location": "immédiatement à droite passée l'entrée, derrière l'accueil",
         "emergency": "defibrillator",
         "indoor": "yes",
@@ -125600,8 +125616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3229061,
-          48.8337886
+          2.3229104,
+          48.8337874
         ]
       },
       "id": "node/7893359085"
@@ -130334,6 +130350,22 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/7914268837",
+        "emergency": "defibrillator",
+        "indoor": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0909927,
+          45.9189422
+        ]
+      },
+      "id": "node/7914268837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/7914278282",
         "access": "yes",
         "defibrillator:location": "Le Carroir se situe au carrefour de la rue Champlouet et de la RD 2152 (ex RN 152) Dans le hall d'entrée",
@@ -130578,6 +130610,1195 @@
         ]
       },
       "id": "node/7914306989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7914343796",
+        "defibrillator:location": "Au fond à droite de l'entrée",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "opening_hours": "Mo-Sa 08:30-20:00; Su 09:00-12:30",
+        "operator": "Atac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1263302,
+          47.1093926
+        ]
+      },
+      "id": "node/7914343796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7915987230",
+        "access": "yes",
+        "defibrillator:location": "Bureau stade nelson paillou (entrée vestiaires)",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "name": "DAE du Stade Nelson Paillou",
+        "operator": "Commune de Liffre",
+        "operator:ref:FR:SIREN": "213501521",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "4427",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5043298,
+          48.2070338
+        ]
+      },
+      "id": "node/7915987230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7915987231",
+        "access": "yes",
+        "defibrillator:location": "Derrière le bar, dans l'entrée",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "name": "DAE Espace Paul Daverne",
+        "operator": "Commune de Liffre",
+        "operator:ref:FR:SIREN": "213501521",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "4442",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5136032,
+          48.2196696
+        ]
+      },
+      "id": "node/7915987231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7916050986",
+        "access": "yes",
+        "defibrillator:location": "Salle des sports",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "operator": "Commune de Saint-Ouen des Alleux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4294656,
+          48.3291582
+        ]
+      },
+      "id": "node/7916050986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7916068685",
+        "access": "yes",
+        "defibrillator:location": "Sous un porche face à la mairie",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "level": "0",
+        "operator": "Commune de Pancé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6624912,
+          47.8825834
+        ]
+      },
+      "id": "node/7916068685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7916766285",
+        "access": "customers",
+        "defibrillator:location": "à la loge, immédiatement à droite passée l'entrée principale",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0",
+        "note": "Indiqué par l'agent d'accueil : utilisable si personne inconsciente dans la mairie, éventuellment sur la place mais le DAE ne peut pas être emporté plus loin",
+        "operator": "Mairie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3269321,
+          48.8329797
+        ]
+      },
+      "id": "node/7916766285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7916951182",
+        "access": "yes",
+        "defibrillator:location": "SURFACE DE VENTE",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0",
+        "location": "indoor",
+        "name": "D.s.a. Cap Vital Santé Blois",
+        "operator": "Poussin Paramédical",
+        "operator:ref:FR:SIREN": "539565796",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "5181",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3318073,
+          47.6134563
+        ]
+      },
+      "id": "node/7916951182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917017888",
+        "access": "yes",
+        "defibrillator:location": "à côté du poste des MNS",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "location": "indoor",
+        "name": "Dae Piscine Agglopolys",
+        "operator": "Communauté D'agglomeration de Blois Agglopolys",
+        "operator:ref:FR:SIREN": "200030385",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "5202",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé",
+        "start_date": "2017-12-03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.30561,
+          47.5953028
+        ]
+      },
+      "id": "node/7917017888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917086152",
+        "access": "yes",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "operator": "Basic-fit",
+        "operator:ref:FR:SIREN": "794778738",
+        "reception_desk": "yes",
+        "ref:FR:GeoDAE": "11122",
+        "security_desk": "yes",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3256438,
+          47.6057275
+        ]
+      },
+      "id": "node/7917086152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917100249",
+        "access": "yes",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "note": "Position exacte inconnue",
+        "operator": "Commune de la Chaussée Saint Victor",
+        "operator:ref:FR:SIREN": "214100471",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "5178",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé",
+        "start_date": "2015-11-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3449373,
+          47.6127398
+        ]
+      },
+      "id": "node/7917100249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917128047",
+        "access": "yes",
+        "defibrillator:location": "LONG/1.35569994 – LAT/ 47.5646861",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "name": "Rue de Sully",
+        "operator": "A S J Section Tennis",
+        "operator:ref:FR:SIREN": "397830464",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "5247",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé",
+        "start_date": "2010-06-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3471415,
+          47.6160241
+        ]
+      },
+      "id": "node/7917128047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917179844",
+        "access": "yes",
+        "defibrillator:location": "sous le porche de la salle des fêtes",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "location": "outdoor",
+        "name": "Dae Salle des Fêtes",
+        "opening_hours": "24/7",
+        "operator": "Commune de Vineuil",
+        "operator:ref:FR:SIREN": "214102956",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "11552",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé",
+        "start_date": "2019-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3759806,
+          47.5850425
+        ]
+      },
+      "id": "node/7917179844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917220015",
+        "access": "yes",
+        "defibrillator:location": "sous le auvent, près des vestiaires du foot",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "location": "outdoor",
+        "name": "Dae du Stade",
+        "operator": "Commune de Vineuil",
+        "operator:ref:FR:SIREN": "214102956",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "5193",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé",
+        "start_date": "2008-07-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3836309,
+          47.5865202
+        ]
+      },
+      "id": "node/7917220015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917234145",
+        "access": "yes",
+        "defibrillator:location": "devant l'entrée du terrain de tennis couvert",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "name": "Dae du Tennis Couvert",
+        "operator": "Commune de Vineuil",
+        "operator:ref:FR:SIREN": "214102956",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "11550",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé",
+        "start_date": "2014-06-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3850774,
+          47.5863635
+        ]
+      },
+      "id": "node/7917234145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917246559",
+        "access": "yes",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "location": "indoor",
+        "operator": "Gie de Saint Gervais la Forêt",
+        "operator:ref:FR:SIREN": "387806722",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "676",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.366646,
+          47.5705475
+        ]
+      },
+      "id": "node/7917246559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917250488",
+        "access": "yes",
+        "defibrillator:location": "à droite de la porte en entrant dans la salle",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "location": "indoor",
+        "name": "Dae du Gymnase Marcel Carné",
+        "operator": "Commune de Vineuil",
+        "operator:ref:FR:SIREN": "214102956",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "5192",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé",
+        "start_date": "2008-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3828602,
+          47.5842994
+        ]
+      },
+      "id": "node/7917250488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917263357",
+        "access": "yes",
+        "defibrillator:location": "A gauche en entrant dans le hall de la mairie.",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "location": "indoor",
+        "name": "Dae Hôtel de Ville",
+        "operator": "Commune de Vineuil",
+        "operator:ref:FR:SIREN": "214102956",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "14216",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3776425,
+          47.5811473
+        ]
+      },
+      "id": "node/7917263357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917263897",
+        "access": "permissive",
+        "defibrillator:location": "à gauche en entrant dans la salle",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "name": "Dae du Gymnase de Belleries",
+        "operator": "Commune de Vineuil",
+        "operator:ref:FR:SIREN": "214102956",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "5191",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé",
+        "start_date": "2008-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3666995,
+          47.5770999
+        ]
+      },
+      "id": "node/7917263897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917264857",
+        "access": "yes",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "location": "indoor",
+        "operator": "Basic-fit",
+        "operator:ref:FR:SIREN": "794778738",
+        "reception_desk": "yes",
+        "ref:FR:GeoDAE": "11213",
+        "security_desk": "yes",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6911024,
+          47.3891398
+        ]
+      },
+      "id": "node/7917264857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917288072",
+        "access": "yes",
+        "defibrillator:location": "Infirmerie",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "name": "Tours 5",
+        "operator": "Commune de Tours",
+        "operator:ref:FR:SIREN": "213702616",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "4948",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.694734,
+          47.3834721
+        ]
+      },
+      "id": "node/7917288072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917295309",
+        "access": "yes",
+        "defibrillator:location": "PC Sécurité",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "name": "Tours 9",
+        "operator": "Commune de Tours",
+        "operator:ref:FR:SIREN": "213702616",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "4952",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6957499,
+          47.3831701
+        ]
+      },
+      "id": "node/7917295309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917309576",
+        "access": "yes",
+        "defibrillator:location": "Salle Jean-Claude CISSE RDC",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "name": "Tours 18",
+        "operator": "Commune de Tours",
+        "operator:ref:FR:SIREN": "213702616",
+        "reception_desk": "no",
+        "ref:FR:GeoDAE": "4937",
+        "security_desk": "no",
+        "source": "Direction Générale de la Santé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6658378,
+          47.3871646
+        ]
+      },
+      "id": "node/7917309576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917447954",
+        "defibrillator:location": "En entrant par la porte principale, dans la salle de gauche. Dans cette salle, au fond à droite.",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0",
+        "operator": "Commune de Saint-Onen-la-Chapelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1793696,
+          48.1765364
+        ]
+      },
+      "id": "node/7917447954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917447955",
+        "defibrillator:location": "À droite de l'entrée, sur le mur extérieur",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "level": "0",
+        "operator": "Commune de Saint-Méen-le-Grand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1968495,
+          48.1882944
+        ]
+      },
+      "id": "node/7917447955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917447956",
+        "defibrillator:location": "À droite de l'entrée, sur le mur extérieur",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "level": "0",
+        "operator": "Commune de Saint-Méen-le-Grand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1941113,
+          48.1887686
+        ]
+      },
+      "id": "node/7917447956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917616585",
+        "access": "yes",
+        "defibrillator:location": "Accueil",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9878639,
+          47.2449492
+        ]
+      },
+      "id": "node/7917616585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917618285",
+        "access": "yes",
+        "defibrillator:location": "En face de l'entrée",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9929556,
+          47.2508352
+        ]
+      },
+      "id": "node/7917618285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7918012278",
+        "emergency": "defibrillator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2210654,
+          42.9340454
+        ]
+      },
+      "id": "node/7918012278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7918148685",
+        "defibrillator:location": "Hall d'entrée, proche de la loge vers l'Est (vers bâtiment C)",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3130635,
+          48.8245082
+        ]
+      },
+      "id": "node/7918148685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919242185",
+        "access": "yes",
+        "defibrillator:location": "Accueil",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0238445,
+          47.2377095
+        ]
+      },
+      "id": "node/7919242185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919242585",
+        "access": "yes",
+        "defibrillator:location": "Cafétéria",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0219991,
+          47.234588
+        ]
+      },
+      "id": "node/7919242585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919242586",
+        "access": "yes",
+        "defibrillator:location": "Accueil",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0268395,
+          47.2347539
+        ]
+      },
+      "id": "node/7919242586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919244285",
+        "access": "yes",
+        "defibrillator:location": "Accueil",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0261673,
+          47.2344168
+        ]
+      },
+      "id": "node/7919244285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919244885",
+        "access": "yes",
+        "defibrillator:location": "Cafétéria",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0255235,
+          47.2337575
+        ]
+      },
+      "id": "node/7919244885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919248685",
+        "access": "yes",
+        "defibrillator:location": "Accueil",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0269129,
+          47.2358446
+        ]
+      },
+      "id": "node/7919248685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919250085",
+        "access": "yes",
+        "defibrillator:location": "Entrée (Cour)",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0236599,
+          47.2360747
+        ]
+      },
+      "id": "node/7919250085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919250685",
+        "access": "yes",
+        "defibrillator:location": "Accueil",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0217792,
+          47.2360631
+        ]
+      },
+      "id": "node/7919250685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919254185",
+        "access": "yes",
+        "defibrillator:location": "Cafétéria",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0156959,
+          47.2365403
+        ]
+      },
+      "id": "node/7919254185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919255885",
+        "access": "yes",
+        "defibrillator:location": "Accueil",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9853147,
+          47.2456461
+        ]
+      },
+      "id": "node/7919255885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7919965880",
+        "defibrillator:location": "à l'extérieur, sur le mur de la mairie.",
+        "emergency": "defibrillator",
+        "indoor": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9416498,
+          47.8646991
+        ]
+      },
+      "id": "node/7919965880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920238460",
+        "access": "private",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5506543,
+          44.8634882
+        ]
+      },
+      "id": "node/7920238460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920326885",
+        "defibrillator:location": "Juste en arrière de l'accueil, à gauche",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0",
+        "opening_hours": "Mo-Fr 07:30-22:00; Sa 08:00-19:00; Su 09:00-18:00",
+        "operator": "CMG sports club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3651538,
+          48.8678323
+        ]
+      },
+      "id": "node/7920326885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920544885",
+        "defibrillator:location": "à gauche en entrant, banque d'accueil, immédiatement à gauche de celle-ci",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0",
+        "note": "un autre DAE dans les étages (4ème indiqué) mais non observé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.37592,
+          48.8750032
+        ]
+      },
+      "id": "node/7920544885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920568986",
+        "defibrillator:location": "à l'entrée de la piscine, immédiatement à droite avant même les caisses",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0",
+        "operator": "Mairie de Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.378872,
+          48.8713226
+        ]
+      },
+      "id": "node/7920568986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920573085",
+        "defibrillator:location": "à l'intérieur du PC sécurité",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3525171,
+          48.8622218
+        ]
+      },
+      "id": "node/7920573085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920621216",
+        "access": "yes",
+        "defibrillator:location": "Se trouve juste à côté et à l'extérieur de la salle des fêtes, à proximité de la boîte à livres, non abrité.",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "operator": "Commune de Birac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0627843,
+          45.5602042
+        ]
+      },
+      "id": "node/7920621216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920725525",
+        "defibrillator:location": "Se trouve à l'entrée de la mairie à l'intérieur.",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "1",
+        "opening_hours": "Tu-Fr 09:00-12:00,13:30-18:00; Sa 09:00-12:00,14:00-17:00",
+        "operator": "Commune de Châteauneuf-sur-Charente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0544769,
+          45.6000216
+        ]
+      },
+      "id": "node/7920725525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920725526",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "operator": "Commune de Châteauneuf-sur-Charente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0545157,
+          45.5934551
+        ]
+      },
+      "id": "node/7920725526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920725527",
+        "access": "customers",
+        "defibrillator:location": "Se trouve dans le local des sauveteurs en bas des escaliers.",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "-1",
+        "note": "Horaires à déterminer pour 2021, cette année du 13/07 au 30/08 la piscine a été ouverte.",
+        "operator": "Commune de Châteauneuf-sur-Charente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0519868,
+          45.5992858
+        ]
+      },
+      "id": "node/7920725527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920836491",
+        "emergency": "defibrillator",
+        "indoor": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6836828,
+          43.3569741
+        ]
+      },
+      "id": "node/7920836491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920909290",
+        "description": "Inside the building entrance. But the entrance seems to be open 24/7.",
+        "emergency": "defibrillator",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7780901,
+          44.6683129
+        ]
+      },
+      "id": "node/7920909290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7921094886",
+        "access": "private",
+        "defibrillator:location": "Disponible à l’accueil à la Mairie",
+        "emergency": "defibrillator",
+        "indoor": "yes",
+        "level": "0",
+        "operator": "Mairie de Favières"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9572971,
+          48.4639075
+        ]
+      },
+      "id": "node/7921094886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7922224166",
+        "defibrillator:location": "Salle Charles Rigoulot",
+        "emergency": "defibrillator",
+        "location": "indoor",
+        "operator": "Mairie d'Orléans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.90176,
+          47.9111452
+        ]
+      },
+      "id": "node/7922224166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7922234052",
+        "defibrillator:location": "Dojo Jean-Claude Rousseau",
+        "emergency": "defibrillator",
+        "location": "indoor",
+        "operator": "Mairie d'Orléans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8893483,
+          47.9193085
+        ]
+      },
+      "id": "node/7922234052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7922243059",
+        "defibrillator:location": "Gymnases Gaston et Jacques Barthélémy",
+        "emergency": "defibrillator",
+        "location": "indoor",
+        "operator": "Mairie d'Orléans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9198638,
+          47.9072797
+        ]
+      },
+      "id": "node/7922243059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7922265316",
+        "defibrillator:location": "musée des Beaux-Arts",
+        "emergency": "defibrillator",
+        "location": "indoor",
+        "operator": "Mairie d'Orléans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9092095,
+          47.9024677
+        ]
+      },
+      "id": "node/7922265316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7922302283",
+        "defibrillator:location": "lycée Saint-Charles",
+        "emergency": "defibrillator",
+        "location": "indoor",
+        "operator": "Mairie d'Orléans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.908778,
+          47.8910995
+        ]
+      },
+      "id": "node/7922302283"
     }
   ]
 }
