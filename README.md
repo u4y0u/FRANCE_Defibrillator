@@ -2,7 +2,7 @@
 
 Jeu de données extrait de OpenStreetMap® - ensemble de données ouvertes, disponibles sous la licence libre Open Data Commons Open Database License (ODbL) accordée par la Fondation OpenStreetMap (OSMF).
 
-Version : Emplacement des 8108 défibrillateurs au 01/10/2020
+Version : Emplacement des 8108 défibrillateurs au 10/10/2020
 
 Aperçu:
 
